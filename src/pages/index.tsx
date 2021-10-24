@@ -50,17 +50,17 @@ const Home: NextPage = () => {
         />
         <div className="sm:w-1/3 w-full bg-[#fbf9f7]">
           <div className="mx-10 mb-10 sm:m-15">
-            <p className="font-passion text-2xl lg:text-3xl xl:text-4xl text-[#c3b091] w-full text-center">
+            <p className="mt-5 font-passion text-2xl lg:text-3xl xl:text-4xl text-[#c3b091] w-full text-center">
               SAVE THE DATE!
             </p>
 
-            <p className="font-sans text-2xl md:text-3xl mt-3 w-full text-center">
+            <p className="font-passion text-2xl md:text-3xl mt-3 w-full text-center">
               Sunday, 7 October 2021, 10am
             </p>
           </div>
 
           <div className="sm:m-10 lg:m-15">
-            <p className="font-passion text-2xl lg:text-3xl xl:text-4xl text-[#c3b091] w-full text-center">
+            <p className="mt-5 font-passion text-2xl lg:text-3xl xl:text-4xl text-[#c3b091] w-full text-center">
               Join Us On Live!
             </p>
             <YouTube
