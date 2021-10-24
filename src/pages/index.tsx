@@ -8,17 +8,17 @@ const images = [
     {
         original: '/weddingWebsite.jpg',
         thumbnail: '/weddingWebsite.jpg',
-        // originalClass: 'object-cover object-center sm:w-2/3 w-full h-full',
+        originalClass: 'object-cover object-center w-full h-full',
     },
     {
         original: '/weddingWebsite2.jpg',
         thumbnail: '/weddingWebsite2.jpg',
-        // originalClass: 'object-cover object-center sm:w-2/3 w-full h-full',
+        originalClass: 'object-cover object-center w-full h-full',
     },
     {
         original: '/weddingWebsite3.jpg',
         thumbnail: '/weddingWebsite3.jpg',
-        // originalClass: 'object-cover object-center sm:w-2/3 w-full h-full',
+        originalClass: 'object-cover object-center w-full h-full',
     },
 ]
 
