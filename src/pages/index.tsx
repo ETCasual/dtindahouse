@@ -33,14 +33,10 @@ const Home: NextPage = () => {
           #dtindahouse
         </p>
         <p className="ml-5 font-script font-bold lg:text-5xl md:text-4xl text-3xl text-white transform hover:scale-[1.1] origin-left transition duration-500">
-          Holy Matrimony of Dawn Hui & Kok Tim
+          Dawn Hui & Kok Tim
         </p>
       </div>
       <div className="sm:flex sm:h-screen lg:h-full">
-        {/* <img
-                    className="object-cover object-center sm:w-2/3 w-full h-full"
-                    src="weddingWebsite.jpg"
-                /> */}
         <ImageGallery
           items={images}
           infinite
@@ -55,11 +51,11 @@ const Home: NextPage = () => {
         <div className="sm:w-1/3 w-full bg-[#fbf9f7]">
           <div className="mx-10 mb-10 sm:m-15">
             <p className="font-passion text-2xl lg:text-3xl xl:text-4xl text-[#c3b091] w-full text-center">
-              SAVE THE DATES!
+              SAVE THE DATE!
             </p>
 
             <p className="font-sans text-2xl md:text-3xl mt-3 w-full text-center">
-              Sunday, 7 October 2021
+              Sunday, 7 October 2021, 10am
             </p>
           </div>
 
@@ -85,8 +81,8 @@ const Home: NextPage = () => {
                   alt="tng"
                   className="lg:w-16 lg:h-16 sm:w-14 sm:h-14 w-20 h-20"
                 />
-                <p>Wong Kok Tim</p>
-                <p>016-6663789</p>
+                <p>Foong Dawn Hui</p>
+                <p>014-9709138</p>
               </div>
               <div className="flex flex-col items-center">
                 <img
