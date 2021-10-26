@@ -73,16 +73,16 @@ const Home: NextPage = () => {
               target="_blank"
               className="mt-10"
             >
-              <div className="flex items-center justify-center">
+              {/* <div className="flex items-center justify-center">
                 <FaYoutube size={50} color="#FF0000" />
                 <p className="font-bold ml-2 text-2xl">YouTube</p>
-              </div>
+              </div> */}
             </a>
           </div>
 
           <div className="sm:m-5 lg:m-10 mb-10 sm:mb-0">
-            <p className="mt-5 font-passion text-2xl lg:text-3xl xl:text-4xl text-[#c3b091] w-full text-center">
-              Join Us On Live!
+            <p className="mt-5 font-roboto tracking-wider text-lg lg:text-xl xl:text-2xl text-[#c3b091] w-full text-center">
+              WITNESS OUR MARRIAGE!
             </p>
             <YouTube
               videoId="ST17VRpVvdc"
@@ -92,8 +92,8 @@ const Home: NextPage = () => {
           </div>
 
           <div className="sm:m-5 lg:m-10 sm:rounded-2xl bg-[#f7e7ce]">
-            <p className="font-passion text-2xl lg:text-3xl xl:text-4xl text-[#c3b091] w-full text-center pt-2">
-              Bless Us!
+            <p className="font-roboto tracking-wider text-lg lg:text-xl xl:text-2xl text-[#c3b091] w-full text-center pt-2">
+              BLESS US!
             </p>
             <div className="flex flex-col py-5">
               <div className="flex items-center mx-5 mb-2">
