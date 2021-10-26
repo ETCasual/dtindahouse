@@ -5,29 +5,26 @@ import YouTube from 'react-youtube'
 import ImageGallery from 'react-image-gallery'
 import { FaYoutube } from 'react-icons/fa'
 
-import { useRouter } from 'next/router'
-
 const images = [
-  {
-    original: '/weddingWebsite.jpg',
-    thumbnail: '/weddingWebsite.jpg',
-    originalClass: 'object-cover object-center w-full h-full',
-  },
+  // {
+  //   original: '/weddingWebsite.jpg',
+  //   thumbnail: '/weddingWebsite.jpg',
+  // },
   {
     original: '/weddingWebsite2.jpg',
     thumbnail: '/weddingWebsite2.jpg',
-    originalClass: 'object-cover object-center w-full h-full',
   },
   {
-    original: '/weddingWebsite3.jpg',
-    thumbnail: '/weddingWebsite3.jpg',
-    originalClass: 'object-cover object-center w-full h-full',
+    original: '/weddingWebsite4.jpg',
+    thumbnail: '/weddingWebsite4.jpg',
   },
+  // {
+  //   original: '/weddingWebsite3.jpg',
+  //   thumbnail: '/weddingWebsite3.jpg',
+  // },
 ]
 
 const Home: NextPage = () => {
-  const { push } = useRouter()
-
   return (
     <>
       <Head>
@@ -43,19 +40,20 @@ const Home: NextPage = () => {
       </div>
       <div className="sm:flex h-full sm:h-screen w-full bg-[#fbf9f7] mt-[88px]">
         <div className="relative sm:w-2/3 w-full">
-          <p className="font-script z-[5] text-white lg:text-3xl text-lg sm:text-xl absolute sm:fixed bottom-5 left-5 sm:left-10">
+          <p className="font-script z-[5] text-[#fbf9f7] lg:text-4xl text-xl sm:text-2xl absolute sm:fixed bottom-5 left-5 sm:left-10">
             1 Corinthians 13:8 - Love never fails.
           </p>
           <ImageGallery
             items={images}
             infinite
             autoPlay
-            showNav={false}
+            showNav
             showThumbnails={false}
             showPlayButton={false}
-            slideDuration={1000}
-            slideInterval={5000}
-            additionalClass="object-cover object-center sm:fixed sm:left-0 sm:h-screen h-full cursor-default bg-[#fbf9f7]"
+            slideDuration={1500}
+            slideInterval={7000}
+            originalClass="object-center object-cover"
+            additionalClass="object-cover object-center sm:fixed sm:left-0 sm:h-screen  h-full cursor-default bg-[#fbf9f7]"
           />
         </div>
         <div className="sm:w-1/3 w-full bg-[#fbf9f7] absolute right-0">
@@ -76,7 +74,7 @@ const Home: NextPage = () => {
               THEIR WEDDING
             </p>
             <p className=" text-2xl md:text-3xl my-10 w-full text-center font-roboto">
-              Sunday | 7 October 2021 | 10am
+              Sunday | 7 November 2021 | 10am
             </p>
             <a
               href="https://www.youtube.com/watch?v=ST17VRpVvdc"
@@ -108,13 +106,13 @@ const Home: NextPage = () => {
             <div className="flex flex-col py-5">
               <div className="flex items-center mx-5 mb-2">
                 <img
-                  src="https://play-lh.googleusercontent.com/sJ63Y_EFmkJuOeY7R9gJLjs9FAHYHxFxyuF0RJ0caALJJWL3srmdhuucyCjTnV-GpRg"
-                  alt="tng"
+                  src="pngegg.png"
+                  alt="bankCard"
                   className="lg:w-16 lg:h-16 sm:w-14 sm:h-14 w-20 h-20"
                 />
                 <div className="ml-5">
-                  <p>Foong Dawn Hui</p>
-                  <p>014-9709138</p>
+                  <p>Foong Dawn Hui - Maybank</p>
+                  <p>112241195180</p>
                 </div>
               </div>
               <div className="flex items-center mx-5">
