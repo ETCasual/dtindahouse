@@ -6,10 +6,6 @@ import ImageGallery from 'react-image-gallery'
 import { FaYoutube } from 'react-icons/fa'
 
 const images = [
-  // {
-  //   original: '/weddingWebsite.jpg',
-  //   thumbnail: '/weddingWebsite.jpg',
-  // },
   {
     original: '/weddingWebsite2.jpg',
     thumbnail: '/weddingWebsite2.jpg',
@@ -18,10 +14,6 @@ const images = [
     original: '/weddingWebsite4.jpg',
     thumbnail: '/weddingWebsite4.jpg',
   },
-  // {
-  //   original: '/weddingWebsite3.jpg',
-  //   thumbnail: '/weddingWebsite3.jpg',
-  // },
 ]
 
 const Home: NextPage = () => {
