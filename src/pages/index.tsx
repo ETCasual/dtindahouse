@@ -44,7 +44,7 @@ const Home: NextPage = () => {
             showPlayButton={false}
             slideDuration={1500}
             slideInterval={7000}
-            originalClass="object-center object-cover"
+            // originalClass="object-center object-cover"
             additionalClass="object-cover object-center sm:fixed sm:left-0 sm:h-screen  h-full cursor-default bg-[#fbf9f7]"
           />
         </div>
