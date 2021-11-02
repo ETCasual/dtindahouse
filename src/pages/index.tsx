@@ -3,7 +3,6 @@ import React from 'react'
 import Head from 'next/head'
 import YouTube from 'react-youtube'
 import ImageGallery from 'react-image-gallery'
-import { FaYoutube } from 'react-icons/fa'
 
 const images = [
   {
